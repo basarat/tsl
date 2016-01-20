@@ -11,6 +11,9 @@ export class Maybe<T>{
     }
     /** Shorthand for constructor */
     static Some<T>(value: T): Maybe<T> {
+        if (value === null || value === undefined) {
+            throw new Error('value for some cannot be null or undefied');
+        }
         return new Maybe(value);
     };
     static None<T>(): Maybe<T> {
