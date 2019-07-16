@@ -1,5 +1,7 @@
 # Base library for TypeScript devs
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/basarat/tsl.svg)](https://greenkeeper.io/)
+
 Features:
 * [Maybe](#maybe)
 
